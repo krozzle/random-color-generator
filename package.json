@@ -1,0 +1,8 @@
+{
+  "name": "random-color-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/krozzle/random-color-generator.git",
+  "author": "Christopher Wattaul <chris.wattaul@gmail.com>",
+  "license": "MIT"
+}
