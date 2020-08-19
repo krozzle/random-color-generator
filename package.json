@@ -6,11 +6,6 @@
   "author": "Christopher Wattaul <chris.wattaul@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^4.1.0",
-    "colornames": "^1.1.1",
-    "my-colors": "^1.0.0",
-    "random-color": "^1.0.1",
-    "random-hex": "^1.0.2",
     "randomcolor": "^0.6.2"
   }
 }
