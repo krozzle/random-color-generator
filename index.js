@@ -1,13 +1,29 @@
 var randomColor = require('randomcolor');
-const input = process.argv[2];
-var color = randomColor({ hue: input });
+const hue = process.argv[2];
+const luminosity = process.argv[3];
+var color = randomColor({ hue: hue, luminosity: luminosity });
 const guessedColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
 const chalk = require('chalk');
 
-let result = input
+let result = hue
   ? chalk.hex(color)(
-      `########################################################### ${color}###############`,
+      `      ###########################
+      ###########################
+      #######             #######
+      #######   ${color}   #######
+      #######             #######
+      ###########################
+      ###########################
+      `,
     )
-  : chalk.hex(guessedColor)(guessedColor);
+  : chalk.hex(guessedColor)(
+      `      ###########################
+      ###########################
+      #######             #######
+      #######   ${guessedColor}   #######
+      #######             #######
+      ###########################
+      ###########################`,
+    );
 
 console.log(result);
