@@ -6,7 +6,7 @@ Use this app in the command of your terminal like this:
 
 <img src='/screenshots/random-color.png'>
 
-You can also input a specific color like this:
+Or input the hue and luminosity you prefer like this:
 
 <img src='/screenshots/hue-luminosity.png'>
 
