@@ -2,7 +2,7 @@
 
 This project will no longer be maintained.
 
-__## NodeJS Random Color Generator
+## NodeJS Random Color Generator
 
 This project was part of the 1st week of the <a href='https://www.upleveled.io'>UpLeveled JS bootcamp</a>.
 
@@ -14,4 +14,4 @@ Or input the hue and luminosity you prefer like this:
 
 <img src='/screenshots/hue-luminosity.png'>
 
-Thanks for tuning in and have fun!__
+Thanks for tuning in and have fun!
